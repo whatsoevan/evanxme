@@ -1,5 +1,6 @@
 ---
-
+import Navigation from '../components/Navigation.astro'
+import Footer from '../components/Footer.astro'
 ---
 
 <html lang="en">
@@ -10,10 +11,9 @@
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
-  <a href="/">Home</a>
-  <a href="/about/">About</a>
-  <a href="/blog/">Blog</a>
+  <Navigation />
   <body>
     <h1>Hi, I'm Evan!</h1>
+    <Footer />
   </body>
 </html>
