@@ -1,24 +1,21 @@
 ---
-import Navigation from '../components/Navigation.astro'
+import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
-import '../styles/global.css'
-const {pageTitle} = Astro.props
+import '../styles/styles.css'
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>Evan Xu</title>
   </head>
-  <Navigation />
-  <body>
-    <h1>{pageTitle}</h1>
-    <slot />
-    <Footer />
-    <script>
-      import '../scripts/menu.js'
-    </script>
+  <body class="text-lg bg-slate-50 text-slate-900 dark:text-slate-100 dark:bg-slate-900">
+    <div class="mx-auto md:w-[768px] border-dashed border-red-600 border-4">
+      <Header />
+      <slot />
+      <Footer />
+    </div>
   </body>
 </html>
