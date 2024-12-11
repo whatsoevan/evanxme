@@ -1,0 +1,12 @@
+---
+const {title, url, date, description} = Astro.props
+---
+<a href={url} class="group block py-4">
+  <article class="flex gap-4 items-baseline">
+    <p class="font-pixel flex-shrink-0 group-hover:text-sky-500">{date.toString().slice(0,10)}</p>
+    <div class="flex-1">
+    <h2 class="font-pixel group-hover:text-sky-500">{title}</h2>
+    <p class="break-words text-pretty text-slate-500 font-medium">{description}</p>
+    </div>
+  </article>
+</a>

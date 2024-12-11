@@ -1,15 +1,16 @@
 ---
 import BaseLayout from "./BaseLayout.astro"
+import Tags from "../components/Tags.astro"
 const {frontmatter} = Astro.props
 ---
 <BaseLayout pageTitle={frontmatter.title}>
-  <article class="prose prose-slate dark:prose-invert">
-  <h1>{frontmatter.title}</h1>
-  <p>Written by {frontmatter.author}</p>
-  <p>Published on: {frontmatter.pubDate.toString().slice(0,10)}</p>
-  <div class="tags">
-    {frontmatter.tags.map((tag) => <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>)}
-  </div>
+  <article>
+    <h1>{frontmatter.title}</h1>
+    <div class="py-2">
+      <span class="font-pixel">{frontmatter.author}</span>
+      <span class="font-pixel pl-2"> {frontmatter.pubDate.toString().slice(0,10)}</span>
+    </div>
+      <Tags tags={frontmatter.tags}/>
     <slot />
   </article>
 </BaseLayout>
