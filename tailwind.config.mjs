@@ -15,7 +15,7 @@ export default {
           "Courier New",
         ],
         satoshi: [
-          "Satoshi-Variable",
+          "Satoshi",
           "ui-sans-serif",
           "system-ui",
           "sans-serif",
