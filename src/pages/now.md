@@ -1,17 +1,16 @@
 ---
-layout: ../layouts/BaseLayout.astro
+layout: ../layouts/MarkdownPostLayout.astro
 title: "/now"
+pubDate: 2024-12-12
+author: "Evan Xu"
+description: ""
+tags: []
 ---
-
-# /now
 
 ## what I'm up to
 
-- Building this blog out!
-  - TODO: make the tags look better/useable..
-  - TODO: make the blog post list look better.
+- Building this blog!
 - Getting back into programming for fun.
-- Writing blog posts to document my progress!
 
 ## on my watch list
 
@@ -20,3 +19,8 @@ title: "/now"
 ## reading
 
 - Stolen Focus
+
+## Done:
+
+- make the tags look better/useable.
+- make the blog post list look better.

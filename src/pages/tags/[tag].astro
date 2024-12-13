@@ -18,6 +18,6 @@ const { tag } = Astro.params
 const { posts } = Astro.props
 ---
 <BaseLayout pageTitle={tag}>
-  <h1>#{tag} Posts</h1>
+  <h1><span class="text-sky-500">#{tag} </span>Posts</h1>
   <BlogPostList posts={posts}/>
 </BaseLayout>
