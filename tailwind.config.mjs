@@ -14,11 +14,10 @@ export default {
           "Liberation Mono",
           "Courier New",
         ],
-        satoshi: [
-          "Satoshi",
-          "ui-sans-serif",
-          "system-ui",
-          "sans-serif",
+        sentient: [
+          "Sentient",
+          "ui-serif",
+          "serif",
           "Apple Color Emoji",
           "Segoe UI Emoji",
           "Segoe UI Symbol",

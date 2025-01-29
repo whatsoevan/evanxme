@@ -3,7 +3,7 @@ layout: ../layouts/MarkdownPostLayout.astro
 title: "/now"
 pubDate: 2024-12-12
 author: "Evan Xu"
-description: ""
+description: "What I'm up to now."
 tags: []
 ---
 

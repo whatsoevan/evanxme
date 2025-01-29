@@ -2,40 +2,41 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Initial commit
 pubDate: 2024-12-12
-description: how it took 5 years to build a goddamn html website.
+description: how it took 5 years to build a damn html website.
 author: Evan Xu
-tags: ["building in public"]
+tags:
+  - building
+  - in
+  - public
 ---
 
-Hello there! Welcome to my website, and thanks for dropping by on this first post!
+Welcome to my website, and thanks for dropping by on this first post!
 
 The site you see now is the product of a long, 5-year uphill battle that follows my development as a programmer. I want to share this story with you, because it's kinda embarrassing how long it took and how much overthinking it took to create a simple HTML website for myself.
 
 ## in the beginning...
 
-Back in my freshman year of college, I was a recluse. I was also pretty aimless, and I didn't really know where to begin in terms of searching for what I wanted to do. As a result, I distinctly remember on one cold winter day in my first fall semester that I would program my own portfolio website. You know, that's what everyone says to do as a CS major. Maybe I'd get ahead of my peers that way.
+Back in my freshman year of college, I was a recluse. I was aimless, and I didn't really know where to begin in terms of searching for what I wanted to do. As a result, I distinctly remember on one cold winter day in my first fall semester that I would program my own portfolio website. You know, that's what everyone says to do as a CS major. I thought it would be a good way to get ahead of my peers.
 
 So there I was, on quiet Friday nights, holed up in a desk somewhere, forgotten by the world for an afternoon, as I designed my magnum opus, an expression of who I was and who I could become, right on the internet. I even got a free domain name on Namecheap using a student discount to fully commit to the idea I'd be done with my website.
 
-That would have been a really nice period of time, and I would have looked back on it fondly as a period where I was working on something cool...
-
-if I had actually done something.
+That would have been a really nice period of time, and I would have looked back on it fondly as a period where I was working on something cool... if I had actually done something.
 
 I was naive. What ended up happening was I over-engineered and over thought every design decision possible. I started thinking about how I would store my blog articles, so I looked into Firebase. I started thinking about what I wanted my home page to look like, so I told myself I'd research how other people design their personal portfolio.
 
 I was doing literally everything other than building the thing. Looking back, that advice about premature optimization being the root of all evil... yeah it rings truer than I ever realized.
 
-So spring semester comes and goes, and my personal portfolio project crashes and burns before it even has any legs. I spent a handful of lonely afternoons, working on something I thought would be enjoyable, and yet turned out to be largely unproductive (and probably just a cope that I didn't have many friends at university yet).
+So spring semester comes and goes, and my personal portfolio project crashes and burns before it even has any legs. I spent a handful of lonely afternoons, working on something I thought would be enjoyable, and yet turned out to be largely unproductive (and probably just a big cope that I didn't have many friends at university yet).
 
 ## okay, maybe this time it'll work.
 
-Later, I find out about Astro as the hot new thing for static websites. So I decide to take it for a spin and initialize a fresh repository. I remember clicking around this new project, feeling some excitement once again, but too many things in this project I didn't really understand. Where is this variable coming from? This style is weird, and I don't know how to fix it?
+Later, I find out about Astro as the hot new thing for static websites. So I decide to take it for a spin and initialize a fresh repository. I remember clicking around this new project, feeling some excitement once again. But this quickly turned into confusion as I clicked around more. Where is this variable coming from? Where does this CSS style come from?
 
-So I eventually settle on using a template that I find that Shu Ding uses for their personal website. It's sleek, it's minimalist. I like it, and I think it'd be easy to work with. I slap my name on it, and deploy it on my domain.
+I eventually settle on using a template that I find that [Shu Ding ](https://shud.in/)uses for their personal website. It's sleek, it's minimalist. I like it, and I think it'd be easy to work with. I slap my name on it, and deploy it on my domain.
 
 Hey hey! I'm finally on the internet for real.
 
-I would work on this website in random, motivated sprints, although I would only change a color there or a font there. I remember I got frustrated by the template I was using, because I wanted to integrate a component library and I couldn't figure out how to make a dark mode toggle work with the component library and the template. It was like trying to mix oil and water, and somehow, it would always explode on me. That frustration boiled over one day, and from then on the website just sat and collected dust, with just two sad buttons I had copy and pasted the CSS from the internet (hey, at least they had a cool press down animation).
+I would work on this website in random, motivated sprints, although I would only change a color there or a font there. I remember I got frustrated by the template I was using, because I wanted to integrate a component library and I couldn't figure out how to make a dark mode toggle work with the component library and the template. It was like trying to mix oil and water. That frustration boiled over one day, and from then on the website just sat and collected dust, with just two sad buttons I had copy and pasted the CSS from the internet (hey, at least they had a cool press down animation).
 
 Sophomore year comes and goes. I get a tech internship, but my website isn't anything worth showing off, so it never comes up.
 
@@ -43,13 +44,13 @@ Sophomore year comes and goes. I get a tech internship, but my website isn't any
 
 A year or two goes by, and I decide it's time to refresh my internet presence. This time, I say I'm gonna skip the programming. The issue, I realize, is that I'm not moving fast enough. People much less tech-savvy are out there making websites on Wix and actually doing their thing on the internet. So this time, I'm gonna learn from my mistakes and just build something that looks pretty, and quick.
 
-I follow Thomas Frank's Notion website building tutorial. I link it up to my domain, and tada! A new, fresh personal website, just for me. This time, featuring my face, and Notion does all the work to make things look pretty for me.
+I follow [Thomas Frank's Notion website building](https://www.youtube.com/watch?v=kA0-xFwhH4A) tutorial. I link it up to my domain, and tada! A new, fresh personal website, just for me. This time, featuring my face, and Notion does all the work to make things look pretty for me.
 
-Yea... so that Notion website has been up for a year, also sitting duck. I mean, it's one thing to have a website on the internet. But really, my websites up until this point have really just been taking up space. There's never been anything of any interest on any of them. The whole point of having a website is to show the world something about you, and so far I have yet to do anything like that.
+That Notion website has been up for a year, also sitting duck. It's one thing to have a website on the internet. But really, my websites up until this point have really just been taking up space. There's never been anything of any interest on any of them. The whole point of having a website is to show the world something about you, and so far I have yet to do anything like that.
 
 ## the personal web
 
-So that's was the story up until I come across this video: Your Guide to the Personal Web.
+So that's was the story up until I come across this video: Your Guide to the Personal Web (now deleted).
 
 This video really resonated with me about the purpose of the internet. It really made me yearn for the ye old days of jank programming. Where nobody was worried about scale, UI/UX design, SEO. It was just humans marking their spot in internet history, for no reason other than to mark their spot in internet history and say "I was here". Putting up their interests where people could see them. Interacting with others. Being authentic, human bloggers sharing about their lives, without flexing on Instagram.
 
