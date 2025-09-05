@@ -1,8 +1,0 @@
----
-import BlogCard from "./BlogCard.astro"
-const {posts} = Astro.props
----
-
-<ul class="not-prose divide-y-2 divide-slate-800 dark:divide-slate-100">
-  {posts.map((post)=> <BlogCard title={post.frontmatter.title} url={post.url} date={post.frontmatter.pubDate} description={post.frontmatter.description}/>)}
-</ul>
