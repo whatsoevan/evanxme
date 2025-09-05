@@ -1,6 +1,5 @@
 ---
 import Footer from '../components/Footer.astro'
-import { ClientRouter } from 'astro:transitions'
 import '../styles/styles.css'
 ---
 <html lang="en">
@@ -9,9 +8,13 @@ import '../styles/styles.css'
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
-    <ClientRouter />
     <title>Evan Xu</title>
+    
     <script is:inline>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.body.dataset.hydrated = true;
+        document.body.classList.add('opacity-100');
+      });
       // Apply theme immediately to prevent flash
       (function() {
         const savedTheme = localStorage.getItem('theme');

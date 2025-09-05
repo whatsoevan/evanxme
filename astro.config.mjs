@@ -6,4 +6,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://evanx.netlify.app",
   integrations: [tailwind()],
+  prefetch:{
+    prefetchAll: true
+  }
 });

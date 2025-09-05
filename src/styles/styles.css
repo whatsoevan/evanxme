@@ -146,7 +146,16 @@
 
 }
 
-/* Page Transition Animations */
+body {
+  opacity: 0;
+  transition: opacity 1.2s ease-out;
+}
+
+body[data-hydrated]{
+  opacity: 1;
+}
+
+/* Page Transition Animations
 @keyframes blur-in {
   from {
     filter: blur(8px);
@@ -174,10 +183,10 @@
 }
 
 /* Apply blur transition to the main content area */
-::view-transition-old(root) {
+/* ::view-transition-old(root) {
   animation: blur-out 0.4s ease-in-out;
 }
 
 ::view-transition-new(root) {
   animation: blur-in 0.4s ease-in-out;
-}
+} */
