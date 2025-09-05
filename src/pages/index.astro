@@ -1,6 +1,25 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro"
+import ThemeIcon from "../components/ThemeIcon.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogList from "../components/BlogList.astro";
 ---
+
 <BaseLayout>
-<h1> I'm Evan. <br/> Welcome to my site!</h1>
+    <ThemeIcon />
+    
+    <img src="/images/pfp.webp" alt="my profile picture" style="border-radius:50%; width: 8rem">
+
+    <h1 class="!mt-0">Hi there! I'm Evan.</h1>
+    <p>
+        I'm a programmer, writer, martial artist, and breakdancer. Quite the peculiar set of skills, huh? 
+    </p>
+    <p> Welcome to my digital garden!</p>
+    <p>
+        This is website it just getting started up again, but I have some cool ideas to bring this website to life.
+    </p>
+    <p>
+        Thanks for visiting, and I'll see you around!
+    </p>
+
+    <a href="/szn1"> Season 1 of my newsletter from last year.</a>
 </BaseLayout>

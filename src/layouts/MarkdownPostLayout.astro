@@ -1,17 +1,14 @@
 ---
 import BaseLayout from "./BaseLayout.astro"
-import Tags from "../components/Tags.astro"
 const {frontmatter} = Astro.props
+import Header from "../components/Header.astro"
 ---
+<Header />
 <BaseLayout pageTitle={frontmatter.title}>
   <article>
     <h1 class="">{frontmatter.title}</h1>
-    <p class="not-prose font-pixel text-sky-500">{frontmatter.description}</p>
-    <div class="py-2">
-      <span class="font-pixel">{frontmatter.author}</span>
-      <span class="font-pixel pl-2"> ({frontmatter.pubDate.toString().slice(0,10)})</span>
-    </div>
-      <Tags tags={frontmatter.tags}/>
+    <time class="opacity-50 tabular-nums tracking-tighter text-sm"> {frontmatter.pubDate.toString().slice(0,10)}</time>
+    <p class="m-0 italic opacity-50">{frontmatter.description}</p>
     <slot />
   </article>
 </BaseLayout>

@@ -1,13 +1,9 @@
----
+<!-- ---
 import BaseLayout from "../layouts/BaseLayout.astro"
-import BlogPostList from "../components/BlogPostList.astro"
-import Tags from "../components/Tags.astro"
-const allPosts = await Astro.glob('./posts/*.md')
+const allPosts = Object.values(await import.meta.glob('./posts/*.md', { eager: true })) as any[]
 const uniqueTags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())]
 const pageTitle = "my blog"
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h1>Blog</h1>
-  <Tags tags={uniqueTags} />
-<BlogPostList posts={allPosts} />
-</BaseLayout>
+  <h1>blog</h1>
+</BaseLayout> -->

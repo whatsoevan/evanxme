@@ -1,6 +1,6 @@
 ---
-import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
+import { ClientRouter } from 'astro:transitions'
 import '../styles/styles.css'
 ---
 <html lang="en">
@@ -9,12 +9,24 @@ import '../styles/styles.css'
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
-    <link rel="preload" href="/fonts/Sentient-Variable.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <ClientRouter />
     <title>Evan Xu</title>
+    <script is:inline>
+      // Apply theme immediately to prevent flash
+      (function() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+          document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+        } else {
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.classList.toggle('dark', prefersDark);
+        }
+      })();
+    </script>
   </head>
-  <body class="bg-slate-200 dark:text-slate-300 dark:bg-gray-900 marker:text-blue-400">
-    <div class="p-4 prose prose-slate prose-lg md:prose-xl dark:prose-invert mx-auto md:w-[768px]" >
-      <Header />
+  <body class="px-6 py-24 dark:bg-[#1c1c1c] max-w-xl mx-auto">
+    <div class="fixed top-0 left-0 right-0 h-24 pointer-events-none bg-gradient-to-b from-white dark:from-[#1c1c1c] to-transparent z-50"></div>
+    <div class="prose dark:prose-invert" >
       <slot />
       <Footer />
     </div>

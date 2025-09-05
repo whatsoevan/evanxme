@@ -1,12 +1,29 @@
 ---
-import ThemeIcon from './ThemeIcon.astro'
+import ThemeIcon from "./ThemeIcon.astro";
 ---
-<header class="flex justify-between py-8">
-  <nav class="font-pixel text-xl nav-links">
-    <a href="/">Home</a>
-    <a href="/now/">Now</a>
-    <a href="/blog/">Blog</a>
-  </nav>
 
+<header class="flex justify-between text-sm mb-16 prose dark:prose-invert">
+  <nav
+    class="nav-links flex items-center gap-3 hover:opacity-30 transition-opacity duration-200"
+  >
+    <a href="/" class="flex items-center gap-2 italic no-underline">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M9 14 4 9l5-5"></path>
+        <path d="M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11"
+        ></path>
+      </svg>
+      home
+    </a>
+  </nav>
   <ThemeIcon />
-</header> 
+</header>
