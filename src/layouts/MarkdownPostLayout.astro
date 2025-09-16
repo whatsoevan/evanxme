@@ -6,7 +6,7 @@ import Header from "../components/Header.astro"
 <Header />
 <BaseLayout pageTitle={frontmatter.title}>
   <article>
-    <h1 class="">{frontmatter.title}</h1>
+    <h1 class="text-pretty">{frontmatter.title}</h1>
     <time class="opacity-50 tabular-nums tracking-tighter text-sm"> {frontmatter.pubDate.toString().slice(0,10)}</time>
     <p class="m-0 italic opacity-50">{frontmatter.description}</p>
     <slot />

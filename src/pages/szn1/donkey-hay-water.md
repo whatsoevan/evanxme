@@ -1,12 +1,13 @@
 ---
-title: 'a donkey, hay, and water'
+title: "a donkey, hay, and water"
 pubDate: 2024-06-16
-description: '004'
+description: "004"
 layout: "../../layouts/MarkdownPostLayout.astro"
 ---
+
 Heyo!
 
-We're back for installation number 4 of my 52 week newsletter challenge. 
+We're back for installation number 4 of my 52 week newsletter challenge.
 
 This week, I've been thinking a lot about reflections. In particular, I've been thinking how I measure where I'm at in life 🤔🤔 and how to know if I'm on pace for the summer/life I want??
 
@@ -16,13 +17,10 @@ Often times though, it's just a random thought that I want to jot down at the ti
 
 > Dreams without goals are just dreams, and ultimately they fuel disappointment. On the road to achieving your dreams, you must apply discipline but more importantly, consistency. Without commitment, you'll never start, but without consistency, you'll never finish. - [Denzel Washington](https://www.youtube.com/watch?v=E5XmSKolWn4)
 
-Part of my struggle in the summer is that without the world telling what to do (namely, pass my university classes), I find myself floating in a vacuum of my aspirations. 
+Part of my struggle in the summer is that without the world telling what to do (namely, pass my university classes), I find myself floating in a vacuum of my aspirations.
 
 I feel like that parable of the donkey that is thirsty and hungry, who is halfway between a stack of hay and pail of water, and dies in its indecision. I don't want to be the donkey.
 
-Whenever I'm here, I always remember a picture from *[[Essentialism]]* by Greg McKeown:
-
-![[Pasted image 20240616214551.png]]
 It's been a while since I've read the book, but I do remember him arguing that successful people, Essentialists, are the type to explore many ideas, but ultimately settle on what is essential (hence the name) to focus their efforts. This, McKeown argues, is the vehicle of a life of fulfillment and success.
 
 To this effect, Tiago Forte has a more concrete interpretation of the Denzel Washington quote earlier:
@@ -32,14 +30,14 @@ To this effect, Tiago Forte has a more concrete interpretation of the Denzel Was
 I'm looking at the next 8 weeks of my remaining summer and wondering: just what is it I want to focus on and commit to for 8 weeks? It should be noted that there are many things that should be kept hobbies: not everything needs to be worked at. Atelic activities are also amongst the most important in life.
 
 > pretty shitty how baseline human activities like singing, dancing, and making art got turned into skills instead of being seen as behaviors
-> 
+>
 > so not it's like 'the point of doing them is to get good at them' and not 'this is a thing humans do, the way birds sing and bees make hives'.
-> 
+>
 > [@sonateharder on Tumblr](https://www.tumblr.com/sonateharder/631712995621453824/goldhornsandblackwool-pretty-shitty-how)
 
-But I mentioned in my last post how in summer, it's the adventures and projects that define the summer. Should I read more books? Go outside? Build my strength? Develop a game? Make more art? These are things I want to be doing and completing, yet I know my time, attention, energy, and focus are limited. I need to prioritize. 
+But I mentioned in my last post how in summer, it's the adventures and projects that define the summer. Should I read more books? Go outside? Build my strength? Develop a game? Make more art? These are things I want to be doing and completing, yet I know my time, attention, energy, and focus are limited. I need to prioritize.
 
-The fact is, I can't predict whether any of these things will be "helpful" in the future. The point in doing an activity shouldn't always be capitalistically driven. It's like that [[[calligraphy class that Steve Jobs took]]](https://www.leemunroe.com/steve-jobs-calligraphy/).
+The fact is, I can't predict whether any of these things will be "helpful" in the future. The point in doing an activity shouldn't always be capitalistically driven. It's like that [calligraphy class that Steve Jobs took](https://www.leemunroe.com/steve-jobs-calligraphy/).
 
 So focusing on something doesn't mean to strip out everything fun out of my summer to focus on the grind (I don't think summers are the season for that, especially since I'm still in school), but rather mitigate the possibility of a summer where, in dabbling in too many things and not committing to anything, I let the summer pass without anything memorable or 'defining' happening. I want to be the donkey that survives.
 
@@ -59,7 +57,8 @@ I have been more keen on recently is focusing on doing something in the real wor
 
 That's it for the week! I'm just reminding myself that I gotta stay the track and that my life is ultimately the sum of its projects and habits.
 
-So don't be the donkey and make like Nike: *just do it.*
+So don't be the donkey and make like Nike: _just do it._
 
 Stay tuned hahaha,
 Evan
+
