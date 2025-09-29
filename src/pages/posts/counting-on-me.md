@@ -6,7 +6,8 @@ layout: "../../layouts/MarkdownPostLayout.astro"
 ---
 
 > I feel really lost. I feel like I'm not able to do the things that used to bring me joy. And you know, things that brought me soul. One thing I've also been thinking about is like all my underclassmen, who wrote me these nice messages when I left school, cuz it's like, weird going from a place, where, like, not to toot my own horn, but a lot of people knew me and respected me, and most importantly a lot of people believed in me, and believed in the things that I was capable of, and were willing to support me and all that... even if they didn't personally do anything, I knew the sentiment was there. And I really don't want to let any of them down. Or any of the upperclassmen who said the same thing to me when they graduated and told me that I was going to do great things. I don't want to let any of them down.
-> -- a quote by my close friend.
+
+-- a quote from a close friend
 
 I visited my college friends for the first time this weekend.
 
